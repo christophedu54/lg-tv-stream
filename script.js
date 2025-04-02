@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     var videoElement = document.getElementById("videoPlayer");
     var streamList = document.getElementById("streamList");
-    var m3uUrl = "https://tv.ornethd.net/iptv6_ornethd.m3u"; // Replace with your M3U file URL
+    var m3uUrl = "https://iptv-org.github.io/iptv/countries/fr.m3u"; // Replace with your M3U file URL
 
     // Fetch and parse the M3U file
     fetch(m3uUrl)
